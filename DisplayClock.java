@@ -6,19 +6,21 @@
 
 //U10416036
 
-import javafx.application.Application;
+
 import javafx.geometry.Pos;
-import javafx.stage.Stage;
-import javafx.scene.Scene;
-import javafx.scene.control.Label;
 import javafx.scene.layout.BorderPane;
-import java.util.Calendar; 
 import java.util.GregorianCalendar;
 import javafx.scene.layout.Pane;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Circle;
 import javafx.scene.shape.Line;
 import javafx.scene.text.Text;
+import javafx.scene.control.Label;
+import java.util.Calendar;
+import javafx.application.Application;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
+
 
 public class DisplayClock extends Application {
   @Override // Override the start method in the Application class
